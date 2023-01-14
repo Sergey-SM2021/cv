@@ -133,11 +133,6 @@
   </section>
 </template>
 <script>
-import AppTitle from "@/components/title.vue";
-
 export default {
-  components: {
-    AppTitle,
-  },
 };
 </script>

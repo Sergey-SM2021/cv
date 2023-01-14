@@ -39,12 +39,10 @@
   </div>
 </template>
 <script>
-import AppTitle from "@/components/title.vue";
 import AppBurger from "@/components/burger.vue";
 
 export default {
   components: {
-    AppTitle,
     AppBurger,
   },
   data() {

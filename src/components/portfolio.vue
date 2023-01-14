@@ -1,11 +1,7 @@
 <script>
-import AppTitle from "./title.vue";
 import PortfolioItem from "@/assets/Portfolio item.jpg";
 
 export default {
-  components: {
-    AppTitle,
-  },
   computed: {
     computedSlides() {
       if (window.innerWidth < 730) {

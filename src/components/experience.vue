@@ -57,16 +57,11 @@
   </section>
 </template>
 <script>
-import title from "@/components/title.vue";
-
 export default {
   mounted() {
     this.defaultId = Math.random().toString();
   },
   defaultId: "",
-  components: {
-    AppTitle: title,
-  },
   methods: {
     chooseCompany(CompanyId) {
       this.CompanyAct.id = CompanyId;

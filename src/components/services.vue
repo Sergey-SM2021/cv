@@ -1,13 +1,9 @@
 <script>
-import AppTitle from "@/components/title.vue";
 import crown from "@/assets/crown.svg";
 import icon from "@/assets/Icon.svg";
 import shape from "@/assets/shape.svg";
 
 export default {
-  components: {
-    AppTitle,
-  },
   data() {
     return {
       articles: [

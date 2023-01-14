@@ -4,7 +4,9 @@
     <app-intro />
     <app-services />
     <app-portfolio />
-    <app-experience/>
+    <app-experience />
+    <app-blog />
+    <app-clients />
   </div>
 </template>
 <script>
@@ -14,6 +16,8 @@ import AppIntro from "@/components/intro.vue";
 import AppServices from "@/components/services.vue";
 import AppPortfolio from "@/components/portfolio.vue";
 import AppExperience from "@/components/experience.vue";
+import AppBlog from "@/components/blog.vue";
+import AppClients from "@/components/clients.vue";
 
 export default {
   components: {
@@ -22,7 +26,9 @@ export default {
     AppTitle,
     AppServices,
     AppPortfolio,
-    AppExperience
+    AppExperience,
+    AppBlog,
+    AppClients,
   },
 };
 </script>

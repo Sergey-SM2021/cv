@@ -44,6 +44,7 @@
 
 <script>
 export default {
+  name:"app-title",
   props: {
     label: String,
     value: String,
