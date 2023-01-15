@@ -7,6 +7,7 @@
     <app-experience />
     <app-blog />
     <app-clients />
+    <app-skills />
   </div>
 </template>
 <script>
@@ -18,6 +19,7 @@ import AppPortfolio from "@/components/portfolio.vue";
 import AppExperience from "@/components/experience.vue";
 import AppBlog from "@/components/blog.vue";
 import AppClients from "@/components/clients.vue";
+import AppSkills from "@/components/skills.vue";
 
 export default {
   components: {
@@ -29,6 +31,7 @@ export default {
     AppExperience,
     AppBlog,
     AppClients,
+    AppSkills,
   },
 };
 </script>
