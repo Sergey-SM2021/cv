@@ -77,6 +77,7 @@ export default {
 @import "../const";
 
 .skills {
+  padding: 80px 0;
   background-color: #fff;
   &__inner {
     display: flex;

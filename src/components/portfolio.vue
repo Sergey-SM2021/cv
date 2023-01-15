@@ -86,9 +86,8 @@ export default {
 @import "../const";
 
 .portfolio {
-  height: 100vh;
   &__inner {
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
