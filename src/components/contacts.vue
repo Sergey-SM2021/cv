@@ -4,10 +4,19 @@
       <div class="contacts__inner">
         <form v-on:submit="formSubmit" class="contacts__form form-contacts">
           <div class="form-contacts__fields">
-            <input placeholder="Name" class="form-contacts__field" />
-            <input placeholder="Email" class="form-contacts__field" />
+            <input
+              v-model="requestCall.name"
+              placeholder="Name"
+              class="form-contacts__field"
+            />
+            <input
+              v-model="requestCall.email"
+              placeholder="Email"
+              class="form-contacts__field"
+            />
           </div>
           <textarea
+            v-model="requestCall.message"
             placeholder="Message"
             class="form-contacts__field"
           ></textarea>
@@ -42,6 +51,11 @@ export default {
   },
   data() {
     return {
+      requestCall: {
+        name: "",
+        email: "",
+        message: "",
+      },
       contacts: [
         {
           icon,
@@ -87,7 +101,7 @@ export default {
 
 .form-contacts {
   width: 100%;
-  flex: 1 1 auto;
+  flex: 1 1 55%;
   display: grid;
   &__fields {
     gap: 16px;
@@ -144,7 +158,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 56px;
+    min-width: 56px;
     height: 56px;
     border-radius: 10px;
     background-color: rgba(#7e74f1, 0.1);

@@ -236,7 +236,8 @@ export default {
     display: flex;
     border-radius: 4px;
     background-color: #fff;
-    padding: 32px 14px;
+    padding: 12px 14px;
+    align-items: center;
   }
   &__arrow {
     display: none;

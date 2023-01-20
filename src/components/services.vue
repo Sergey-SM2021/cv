@@ -28,7 +28,7 @@ export default {
 };
 </script>
 <template>
-  <section class="servises">
+  <section id="servises" class="servises">
     <div class="container">
       <div class="servises__content">
         <app-title
@@ -84,7 +84,7 @@ export default {
     transform: translateY(-10px);
     cursor: pointer;
   }
-  transition: all .3s;
+  transition: all 0.3s;
   text-align: center;
   display: flex;
   flex-direction: column;

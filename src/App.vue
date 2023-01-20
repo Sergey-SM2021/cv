@@ -9,6 +9,7 @@
     <app-clients />
     <app-skills />
     <app-contacts />
+    <app-footer />
   </div>
 </template>
 <script>
@@ -22,6 +23,7 @@ import AppBlog from "@/components/blog.vue";
 import AppClients from "@/components/clients.vue";
 import AppSkills from "@/components/skills.vue";
 import AppContacts from "@/components/contacts.vue";
+import AppFooter from "@/components/footer.vue";
 
 export default {
   components: {
@@ -35,6 +37,7 @@ export default {
     AppClients,
     AppSkills,
     AppContacts,
+    AppFooter,
   },
 };
 </script>
